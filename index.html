@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist | The Science of Clear Pores</title>
+  <meta name="description" content="A clinical-grade 02% Salicylic Acid (BHA) treatment designed to penetrate deep into pores and dissolve oil plugs without damaging the skin barrier.">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts - Inter for clean, structured sans-serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              terracotta: '#B96E4F', /* Official Minimalist Accent */
+              charcoal: '#111111',    /* Primary text */
+              grayLight: '#FAF9F6',   /* Sterile clinical gray */
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            mono: ['SFMono-Regular', 'Consolas', 'Liberation Mono', 'Courier', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    /* Strict clinical and monochromatic aesthetic rules */
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: #ffffff;
+      color: #111111;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Custom scrollbar matching monochromatic look */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #111111;
+    }
+
+    /* Disable all rounded corners globally */
+    * {
+      border-radius: 0px !important;
+    }
+
+    /* Button and card offset shadow styling - solid black shadows */
+    .sharp-shadow {
+      box-shadow: 4px 4px 0px 0px #111111;
+    }
+    .sharp-shadow-hover:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0px 0px #111111;
+    }
+    .sharp-shadow-hover:active {
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px 0px #111111;
+    }
+  </style>
+</head>
+<body class="bg-white text-brand-charcoal selection:bg-brand-charcoal selection:text-white overflow-x-hidden">
+
+  <!-- SECTION 1: Minimalist Navigation Header -->
+  <header class="w-full bg-white border-b border-brand-charcoal sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      <div class="font-black text-xl tracking-tighter uppercase font-mono text-brand-charcoal">
+        MINIMALIST<sup>®</sup>
+      </div>
+      <div class="text-[10px] sm:text-xs font-extrabold tracking-widest text-brand-charcoal uppercase font-mono">
+        <span>HIDE NOTHING<sup>®</sup></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sterile Announcement Bar -->
+  <div class="w-full bg-brand-charcoal text-white py-2 px-4 text-center text-[10px] tracking-widest uppercase font-mono font-medium border-b border-brand-charcoal">
+    CLINICAL STUDY: 92.4% EXPERIENCED ACTIVE SEBUM REDUCTION IN 14 DAYS
+  </div>
+
+  <!-- SECTION 2: Hero Section (Optimized for Ad Traffic) -->
+  <section class="w-full bg-white py-12 sm:py-20 px-4 border-b border-brand-charcoal">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+      
+      <!-- Column 1: Main Copy and CTA -->
+      <div class="lg:col-span-7 flex flex-col space-y-6">
+        <div class="inline-flex border border-brand-charcoal px-2.5 py-0.5 w-fit text-[10px] font-mono font-bold tracking-widest bg-brand-grayLight text-brand-charcoal">
+          FORMULA: <span class="text-brand-terracotta ml-1">BHA-02%</span>
+        </div>
+        
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter leading-none uppercase text-brand-charcoal">
+          THE SCIENCE OF CLEAR PORES.
+        </h1>
+        
+        <p class="text-base sm:text-lg text-brand-charcoal leading-relaxed font-normal">
+          Physical scrubs rely on abrasive friction. They rupture the skin barrier, create microscopic tears, and spread acne pathogens. 
+          <span class="font-bold border-b-2 border-brand-charcoal">Real clarity requires targeted lipid dissolution.</span> 
+          Minimalist 2% BHA penetrates sebum plugs to dissolve blackheads and build-up from within.
+        </p>
+
+        <!-- CTA Action Area -->
+        <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4">
+          <a href="#transactional-checkout" class="block text-center bg-brand-charcoal text-white text-sm font-bold uppercase tracking-wider py-4 px-8 border-2 border-brand-charcoal sharp-shadow sharp-shadow-hover transition-all duration-100">
+            GET CLEAR SKIN
+          </a>
+          <div class="flex flex-col justify-center text-xs font-mono text-gray-500 space-y-1 pl-1">
+            <div class="flex items-center space-x-2">
+              <span class="w-1.5 h-1.5 bg-brand-charcoal"></span>
+              <span>pH 3.5 - 3.8 ACTIVE RANGE</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="w-1.5 h-1.5 bg-brand-charcoal"></span>
+              <span>100% ALOE VERA JUICE BASE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust Badges Grid -->
+        <div class="grid grid-cols-3 border border-brand-charcoal divide-x divide-brand-charcoal bg-white mt-4 font-mono text-[9px] sm:text-xs text-center">
+          <div class="p-3">
+            <div class="font-bold text-brand-charcoal">CLEAN VERIFIED</div>
+            <div class="text-gray-500">No Fragrance</div>
+          </div>
+          <div class="p-3">
+            <div class="font-bold text-brand-charcoal">DERM-APPROVED</div>
+            <div class="text-gray-500">Non-Comedogenic</div>
+          </div>
+          <div class="p-3">
+            <div class="font-bold text-brand-charcoal">RADICAL TRACE</div>
+            <div class="text-gray-500">Full Disclosure</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 2: Clinical Data & Tech Sheet -->
+      <div class="lg:col-span-5 bg-white border border-brand-charcoal p-4 sm:p-6 sharp-shadow">
+        <div class="border-b border-brand-charcoal pb-3 mb-4 flex justify-between items-end">
+          <div>
+            <h2 class="text-xs font-bold tracking-widest font-mono uppercase text-brand-charcoal">CLINICAL DATA SHEET</h2>
+            <p class="text-[9px] text-gray-400 font-mono uppercase mt-0.5">FORMULATION PARAMETERS</p>
+          </div>
+          <span class="text-[10px] font-mono text-brand-charcoal bg-brand-grayLight px-2 py-0.5 border border-brand-charcoal font-semibold">VERIFIED</span>
+        </div>
+
+        <!-- Spec Table -->
+        <div class="divide-y divide-brand-charcoal border border-brand-charcoal font-mono text-xs mb-6 bg-white">
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5 bg-brand-charcoal text-white font-bold">
+            <div>PARAMETER</div>
+            <div class="pl-2.5">RESULT/VALUE</div>
+          </div>
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5">
+            <div class="font-bold">ACTIVE AGENT</div>
+            <div class="pl-2.5">02.00% Salicylic Acid (BHA)</div>
+          </div>
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5">
+            <div class="font-bold">ACTIVE SOURCE</div>
+            <div class="pl-2.5">Merck, Germany (RonaCare®)</div>
+          </div>
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5">
+            <div class="font-bold">CARRIER MEDIUM</div>
+            <div class="pl-2.5">Aloe Barbadensis Leaf Juice</div>
+          </div>
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5">
+            <div class="font-bold">EFFICACY pH</div>
+            <div class="pl-2.5 font-bold">3.5 - 3.8</div>
+          </div>
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5">
+            <div class="font-bold">NET VOLUME</div>
+            <div class="pl-2.5">30ml / 1 fl oz</div>
+          </div>
+          <div class="grid grid-cols-2 divide-x divide-brand-charcoal p-2.5">
+            <div class="font-bold">SOLUBILIZER</div>
+            <div class="pl-2.5">Dimethyl Isosorbide (DMI)</div>
+          </div>
+        </div>
+
+        <!-- Mini Clinical Graphic -->
+        <div class="border border-brand-charcoal p-3 bg-brand-grayLight font-mono text-[11px] leading-relaxed">
+          <div class="font-bold border-b border-brand-charcoal pb-1 mb-2 text-xs uppercase text-brand-charcoal">
+            CLINICAL STUDY METRICS
+          </div>
+          <div class="space-y-2">
+            <div class="flex justify-between items-center text-[10px]">
+              <span>Pore Sebum Reduction:</span>
+              <span class="font-bold">92.4%</span>
+            </div>
+            <div class="w-full bg-white h-2 border border-brand-charcoal">
+              <div class="bg-brand-charcoal h-full" style="width: 92%"></div>
+            </div>
+            
+            <div class="flex justify-between items-center text-[10px] pt-1">
+              <span>Blackhead Clearance (4 weeks):</span>
+              <span class="font-bold">50.0%</span>
+            </div>
+            <div class="w-full bg-white h-2 border border-brand-charcoal">
+              <div class="bg-brand-charcoal h-full" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Compare Section: Scrubs vs. BHA -->
+  <section class="w-full bg-white border-b border-brand-charcoal py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tighter uppercase font-mono text-brand-charcoal">FORMULATION COMPARISON</h2>
+        <p class="text-xs font-mono text-gray-400 uppercase mt-1">MECHANISTIC ADVANTAGE OVER PHYSICAL ABRASION</p>
+      </div>
+
+      <div class="border border-brand-charcoal divide-y divide-brand-charcoal font-sans text-xs sm:text-sm">
+        <!-- Table Header -->
+        <div class="grid grid-cols-12 divide-x divide-brand-charcoal bg-brand-charcoal text-white font-mono uppercase font-bold text-[10px] sm:text-xs">
+          <div class="col-span-4 p-3">SPECIFICATION</div>
+          <div class="col-span-4 p-3">PHYSICAL SCRUB</div>
+          <div class="col-span-4 p-3 bg-brand-grayLight text-brand-charcoal border-l border-brand-charcoal">MINIMALIST BHA 2%</div>
+        </div>
+        <!-- Row 1 -->
+        <div class="grid grid-cols-12 divide-x divide-brand-charcoal">
+          <div class="col-span-4 p-3 font-mono font-bold bg-brand-grayLight text-[10px] sm:text-xs text-brand-charcoal">METHOD</div>
+          <div class="col-span-4 p-3 text-gray-500">Abrasive friction over surface layer</div>
+          <div class="col-span-4 p-3 font-bold bg-white text-brand-charcoal">Intra-pore lipid dissolution</div>
+        </div>
+        <!-- Row 2 -->
+        <div class="grid grid-cols-12 divide-x divide-brand-charcoal">
+          <div class="col-span-4 p-3 font-mono font-bold bg-brand-grayLight text-[10px] sm:text-xs text-brand-charcoal">DEPTH</div>
+          <div class="col-span-4 p-3 text-gray-500">Epidermal surface only (0.0mm)</div>
+          <div class="col-span-4 p-3 font-bold bg-white text-brand-charcoal">Follicular penetration (0.5mm+)</div>
+        </div>
+        <!-- Row 3 -->
+        <div class="grid grid-cols-12 divide-x divide-brand-charcoal">
+          <div class="col-span-4 p-3 font-mono font-bold bg-brand-grayLight text-[10px] sm:text-xs text-brand-charcoal">CELL DAMAGE</div>
+          <div class="col-span-4 p-3 text-red-600 font-medium">High (micro-tears, barrier rupture)</div>
+          <div class="col-span-4 p-3 font-bold bg-white text-brand-charcoal">None (anti-inflammatory cell soothing)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: Official Product Gallery Showcase -->
+  <section class="w-full bg-[#f9f9fb] py-16 px-4 border-b border-brand-charcoal">
+    <div class="max-w-5xl mx-auto flex flex-col space-y-12">
+      
+      <!-- Section title and description -->
+      <div class="text-center">
+        <h2 class="text-2xl sm:text-3xl font-black tracking-tighter uppercase font-mono text-brand-charcoal">OFFICIAL GALLERY & ACTION REPORT</h2>
+        <p class="text-xs font-mono text-brand-terracotta uppercase mt-1">REAL BHA MOLECULAR VISUALS AND HD RESOURCES</p>
+      </div>
+
+      <!-- Main Showcase Grid (Centered, Video Removed) -->
+      <div class="max-w-3xl mx-auto w-full flex flex-col bg-white border border-brand-charcoal p-4 sm:p-8 sharp-shadow">
+        <div class="w-full flex flex-col space-y-6">
+          <div class="flex justify-between items-center border-b border-brand-charcoal pb-2">
+            <span id="gallery-label" class="text-[10px] font-mono uppercase tracking-wider text-gray-500 font-bold">IMAGE 1 // CLINICAL PACKAGING BOTTLE</span>
+            <span class="text-xs font-mono font-bold text-brand-terracotta">HD RESOURCE</span>
+          </div>
+          
+          <!-- Main Gallery Image Container -->
+          <div class="w-full aspect-[4/3] bg-white border border-brand-charcoal flex items-center justify-center p-6 overflow-hidden">
+            <img 
+              id="gallery-main-img" 
+              src="https://beminimalist.co/cdn/shop/products/SalicylicAcid2_1200-1-min.png?v=1646458899" 
+              alt="Minimalist Salicylic Acid 2% Serum packaging" 
+              class="max-h-full max-w-full object-contain transition-opacity duration-150">
+          </div>
+
+          <!-- Thumbnail Selection Grid -->
+          <div class="grid grid-cols-6 gap-2 pt-2">
+            <button 
+              onclick="changeGalleryImage('https://beminimalist.co/cdn/shop/products/SalicylicAcid2_1200-1-min.png?v=1646458899', 'IMAGE 1 // CLINICAL PACKAGING BOTTLE', this)" 
+              class="border border-brand-charcoal p-1 bg-white hover:bg-brand-grayLight transition-all active-thumb-btn ring-1 ring-brand-charcoal">
+              <img src="https://beminimalist.co/cdn/shop/products/SalicylicAcid2_1200-1-min.png?v=1646458899" class="aspect-square object-contain w-full">
+            </button>
+            <button 
+              onclick="changeGalleryImage('https://beminimalist.co/cdn/shop/files/Salicylic_Serum_2.png?v=1724763872', 'IMAGE 2 // DETAILED INGREDIENTS BREAKDOWN', this)" 
+              class="border border-brand-charcoal p-1 bg-white hover:bg-brand-grayLight transition-all">
+              <img src="https://beminimalist.co/cdn/shop/files/Salicylic_Serum_2.png?v=1724763872" class="aspect-square object-contain w-full">
+            </button>
+            <button 
+              onclick="changeGalleryImage('https://beminimalist.co/cdn/shop/files/Salicylic_Serum_3.png?v=1724763871', 'IMAGE 3 // CLINICAL LAB STUDY RESULTS', this)" 
+              class="border border-brand-charcoal p-1 bg-white hover:bg-brand-grayLight transition-all">
+              <img src="https://beminimalist.co/cdn/shop/files/Salicylic_Serum_3.png?v=1724763871" class="aspect-square object-contain w-full">
+            </button>
+            <button 
+              onclick="changeGalleryImage('https://beminimalist.co/cdn/shop/files/Salicylic_Serum_4.png?v=1724763872', 'IMAGE 4 // BEFORE & AFTER SCHEMATIC', this)" 
+              class="border border-brand-charcoal p-1 bg-white hover:bg-brand-grayLight transition-all">
+              <img src="https://beminimalist.co/cdn/shop/files/Salicylic_Serum_4.png?v=1724763872" class="aspect-square object-contain w-full">
+            </button>
+            <button 
+              onclick="changeGalleryImage('https://beminimalist.co/cdn/shop/files/Salicylic_Serum_5.png?v=1724763872', 'IMAGE 5 // SERUM TEXTURE AND FLUIDITY', this)" 
+              class="border border-brand-charcoal p-1 bg-white hover:bg-brand-grayLight transition-all">
+              <img src="https://beminimalist.co/cdn/shop/files/Salicylic_Serum_5.png?v=1724763872" class="aspect-square object-contain w-full">
+            </button>
+            <button 
+              onclick="changeGalleryImage('https://beminimalist.co/cdn/shop/files/Salicylic_Serum_6.png?v=1724763870', 'IMAGE 6 // SKINCARE ROUTINE AND LAYERING', this)" 
+              class="border border-brand-charcoal p-1 bg-white hover:bg-brand-grayLight transition-all">
+              <img src="https://beminimalist.co/cdn/shop/files/Salicylic_Serum_6.png?v=1724763870" class="aspect-square object-contain w-full">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Callout Mechanics Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+        
+        <!-- CARD 1 -->
+        <div class="border border-brand-charcoal p-6 bg-white sharp-shadow flex flex-col space-y-3">
+          <div class="flex items-center justify-between border-b border-brand-charcoal pb-2">
+            <span class="text-[10px] font-mono uppercase tracking-wider bg-brand-charcoal text-white px-2 py-0.5 font-bold">MECHANISM 01 // SEBUM PLUG BREAKDOWN</span>
+            <span class="text-xs font-mono font-bold text-brand-terracotta">02% BHA</span>
+          </div>
+          <h3 class="text-lg font-bold tracking-tight uppercase font-mono leading-tight">
+            Salicylic Acid Penetrates Plugs
+          </h3>
+          <p class="text-xs text-brand-charcoal leading-relaxed font-normal">
+            02% Salicylic Acid (BHA) - Penetrates deeper than any physical scrub to break down hardened sebum plugs. Bypasses surface lipids to clean follicular walls.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="border border-brand-charcoal p-6 bg-white sharp-shadow flex flex-col space-y-3">
+          <div class="flex items-center justify-between border-b border-brand-charcoal pb-2">
+            <span class="text-[10px] font-mono uppercase tracking-wider bg-brand-charcoal text-white px-2 py-0.5 font-bold">MECHANISM 02 // BACTERIAL CELL DISRUPT</span>
+            <span class="text-xs font-mono font-bold text-brand-terracotta">PEPTIDE COMBINATION</span>
+          </div>
+          <h3 class="text-lg font-bold tracking-tight uppercase font-mono leading-tight">
+            Bacteria Core Elimination
+          </h3>
+          <p class="text-xs text-brand-charcoal leading-relaxed font-normal">
+            Oligopeptide-10 + Horehound Extract - Actively destroys acne bacteria while reducing surface blackheads by 50%. Soothes cells to prevent redness.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4: High-Intent Transactional Box -->
+  <section id="transactional-checkout" class="w-full bg-brand-grayLight py-16 px-4 border-b border-brand-charcoal">
+    <div class="max-w-md mx-auto bg-white border border-brand-charcoal sharp-shadow p-6 flex flex-col">
+      
+      <!-- Card header -->
+      <div class="border-b-2 border-brand-charcoal pb-4 mb-6">
+        <div class="flex justify-between items-start">
+          <div>
+            <h2 class="text-xl font-black tracking-tight font-mono uppercase text-brand-charcoal">SALICYLIC ACID 02%</h2>
+            <p class="text-xs font-mono text-brand-terracotta uppercase mt-0.5">PORE CLEANSER & ACNE CONTROL</p>
+          </div>
+          <span class="border border-brand-charcoal bg-brand-charcoal text-white text-[10px] font-mono px-2 py-0.5 uppercase tracking-wider font-bold">
+            IN STOCK
+          </span>
+        </div>
+      </div>
+
+      <!-- Product Image wrapper -->
+      <div class="w-full bg-white border border-brand-charcoal p-4 mb-6 flex items-center justify-center overflow-hidden">
+        <img 
+          src="file_00000000f58c71fa8f3899523b055d2b.png" 
+          alt="Minimalist 02% Salicylic Acid bottle photography" 
+          class="h-72 w-full object-contain filter contrast-[1.02]">
+      </div>
+
+      <!-- Pack/Quantity Selection (CRO Optimized - Free US Shipping for orders >$35) -->
+      <div class="mb-6 space-y-3">
+        <label class="block text-xs font-mono font-bold uppercase tracking-wider mb-2 text-brand-charcoal">
+          SELECT QUANTITY PACK
+        </label>
+        
+        <!-- Option 1: 1 Bottle -->
+        <label class="block border border-brand-charcoal p-3 flex justify-between items-center cursor-pointer bg-white transition-all duration-100 hover:bg-brand-grayLight">
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="pack_qty" value="1" checked onchange="updateCartPricing()" class="w-4 h-4 text-brand-charcoal accent-brand-charcoal">
+            <div class="font-mono text-xs">
+              <div class="font-bold text-brand-charcoal">1 BOTTLE (30ml)</div>
+              <div id="pack-1-shipping-desc" class="text-[10px] text-gray-500">Calculating shipping...</div>
+            </div>
+          </div>
+          <div class="font-mono text-sm font-bold text-brand-charcoal">$12.99</div>
+        </label>
+
+        <!-- Option 2: 2 Bottles (Under $35, still has shipping fee) -->
+        <label class="block border border-brand-charcoal p-3 flex justify-between items-center cursor-pointer bg-white transition-all duration-100 hover:bg-brand-grayLight">
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="pack_qty" value="2" onchange="updateCartPricing()" class="w-4 h-4 text-brand-charcoal accent-brand-charcoal">
+            <div class="font-mono text-xs">
+              <div class="font-bold text-brand-charcoal">2 BOTTLES (60ml)</div>
+              <div id="pack-2-shipping-desc" class="text-[10px] text-gray-500">Calculating shipping...</div>
+            </div>
+          </div>
+          <div class="font-mono text-sm font-bold text-brand-charcoal">$25.98</div>
+        </label>
+
+        <!-- Option 3: 3 Bottles (Exceeds $35, FREE US Shipping) -->
+        <label class="block border-2 border-brand-charcoal p-3 flex justify-between items-center cursor-pointer bg-white transition-all duration-100 hover:bg-brand-grayLight relative">
+          <div id="pack-3-badge" class="absolute -top-2.5 right-4 bg-brand-charcoal text-white font-mono text-[8px] font-bold px-2 py-0.5 uppercase tracking-widest">
+            BEST VALUE • FREE US SHIPPING
+          </div>
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="pack_qty" value="3" onchange="updateCartPricing()" class="w-4 h-4 text-brand-charcoal accent-brand-charcoal">
+            <div class="font-mono text-xs">
+              <div class="font-bold text-brand-charcoal">3 BOTTLES (90ml)</div>
+              <div id="pack-3-shipping-desc" class="text-[10px] text-emerald-700 font-semibold">Qualifies for FREE US Shipping</div>
+            </div>
+          </div>
+          <div class="font-mono text-sm font-bold text-brand-charcoal">$38.97</div>
+        </label>
+      </div>
+
+      <!-- Pricing / Details Block -->
+      <div class="border border-brand-charcoal p-3 bg-brand-grayLight font-mono text-xs text-brand-charcoal space-y-1.5 mb-6">
+        <div class="flex justify-between">
+          <span>ITEM SUB-TOTAL:</span>
+          <span id="summary-subtotal" class="font-bold">$12.99</span>
+        </div>
+        <div class="flex justify-between">
+          <span>ESTIMATED SHIPPING:</span>
+          <span id="summary-shipping" class="font-bold text-brand-charcoal">$4.99</span>
+        </div>
+        <div class="h-px bg-brand-charcoal/30 my-1"></div>
+        <div class="flex justify-between text-sm font-black">
+          <span>TOTAL DUE:</span>
+          <span id="summary-total">$17.98</span>
+        </div>
+        
+        <!-- Direct Shipping rule indicator message -->
+        <div id="shipping-upsell-msg" class="text-[9px] text-brand-terracotta uppercase font-bold text-center pt-1.5">
+          ADD $22.01 MORE FOR FREE US SHIPPING (ORDERS >$35)
+        </div>
+      </div>
+
+      <!-- Details List -->
+      <ul class="space-y-2 text-xs font-mono text-brand-charcoal mb-6 border-b border-brand-charcoal pb-4">
+        <li class="flex items-center space-x-2">
+          <span class="w-1.5 h-1.5 bg-brand-charcoal"></span>
+          <span>Regulates sebum activity and clears plugs</span>
+        </li>
+        <li class="flex items-center space-x-2">
+          <span class="w-1.5 h-1.5 bg-brand-charcoal"></span>
+          <span>Formulated in pure, soothing Aloe Vera juice base (No added water)</span>
+        </li>
+        <li class="flex items-center space-x-2">
+          <span class="w-1.5 h-1.5 bg-brand-charcoal"></span>
+          <span>High-purity BHA sourced from Merck, Germany (RonaCare®)</span>
+        </li>
+        <li class="flex items-center space-x-2">
+          <span class="w-1.5 h-1.5 bg-brand-charcoal"></span>
+          <span>Fragrance-free, Essential oil-free, Non-comedogenic</span>
+        </li>
+      </ul>
+
+      <!-- Checkout Form -->
+      <form onsubmit="event.preventDefault(); alert('Redirecting to payment processor...');" class="space-y-4">
+        <div>
+          <label class="block text-xs font-mono font-bold uppercase tracking-wider mb-1 text-brand-charcoal" for="email">
+            EMAIL ADDRESS
+          </label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="name@domain.com" 
+            required 
+            class="w-full border border-brand-charcoal p-3 text-sm font-sans focus:outline-none focus:ring-1 focus:ring-brand-charcoal placeholder:text-gray-400">
+        </div>
+
+        <div>
+          <label class="block text-xs font-mono font-bold uppercase tracking-wider mb-1 text-brand-charcoal" for="shipping">
+            SHIPPING DESTINATION
+          </label>
+          <select 
+            id="shipping" 
+            required 
+            onchange="updateCartPricing()"
+            class="w-full border border-brand-charcoal p-3 text-sm font-sans focus:outline-none focus:ring-1 focus:ring-brand-charcoal">
+            <option value="US">UNITED STATES (Free over $35)</option>
+            <option value="CA">CANADA (Free over $35)</option>
+            <option value="GB">UNITED KINGDOM (Free over £35)</option>
+            <option value="AU">AUSTRALIA (Free over $35)</option>
+            <option value="IN">INDIA (FREE Shipping on all orders)</option>
+            <option value="DE">GERMANY (Free over €35)</option>
+            <option value="FR">FRANCE (Free over €35)</option>
+            <option value="JP">JAPAN (Free over $35)</option>
+            <option value="SG">SINGAPORE (Free over $35)</option>
+            <option value="WORLD">WORLDWIDE (OTHER COUNTRIES)</option>
+          </select>
+        </div>
+
+        <!-- Checkout Button -->
+        <button 
+          type="submit" 
+          class="w-full bg-brand-charcoal hover:bg-black text-white font-bold text-sm tracking-widest py-4 px-6 border border-brand-charcoal sharp-shadow sharp-shadow-hover transition-all duration-100 uppercase mt-4">
+          PROCEED TO SECURE CHECKOUT
+        </button>
+      </form>
+
+      <!-- Trust Notice -->
+      <div class="mt-4 text-[9px] font-mono text-gray-400 uppercase text-center tracking-wider font-semibold">
+        SECURE 256-BIT ENCRYPTION • 30-DAY SATISFACTION GUARANTEE
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footnotes/Clinical Certification Section -->
+  <section class="w-full bg-white py-10 px-4 font-mono text-[9px] text-gray-400 text-center uppercase tracking-widest">
+    <div class="max-w-4xl mx-auto space-y-2">
+      <div>MINIMALIST LAB REPORT #BHA-02</div>
+      <div>FORMULATED ACCORDING TO STRICT GLOBAL SAFETY PROTOCOLS</div>
+      <div>© 2026 BE MINIMALIST PRIVATE LIMITED. ALL RIGHTS RESERVED.</div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE CONTROLLER SCRIPTS -->
+  <script>
+    // Exact official shipping rules configuration
+    const shippingRules = {
+      'US': { name: 'UNITED STATES', rate: 4.99, threshold: 35.00, currency: '$' },
+      'CA': { name: 'CANADA', rate: 5.99, threshold: 35.00, currency: '$' },
+      'GB': { name: 'UNITED KINGDOM', rate: 6.99, threshold: 35.00, currency: '£' },
+      'AU': { name: 'AUSTRALIA', rate: 7.99, threshold: 35.00, currency: '$' },
+      'IN': { name: 'INDIA', rate: 0.00, threshold: 0.00, currency: '₹' }, // Always free
+      'DE': { name: 'GERMANY', rate: 6.99, threshold: 35.00, currency: '€' },
+      'FR': { name: 'FRANCE', rate: 6.99, threshold: 35.00, currency: '€' },
+      'JP': { name: 'JAPAN', rate: 7.99, threshold: 35.00, currency: '¥' },
+      'SG': { name: 'SINGAPORE', rate: 5.99, threshold: 35.00, currency: '$' },
+      'WORLD': { name: 'WORLDWIDE', rate: 9.99, threshold: 35.00, currency: '$' }
+    };
+
+    // Price selector dynamic updates (Global Shipping rules & thresholds)
+    function updateCartPricing() {
+      const subtotalEl = document.getElementById('summary-subtotal');
+      const shippingEl = document.getElementById('summary-shipping');
+      const totalEl = document.getElementById('summary-total');
+      const upsellMsgEl = document.getElementById('shipping-upsell-msg');
+
+      const qtyRadios = document.getElementsByName('pack_qty');
+      let quantity = 1;
+      for (const r of qtyRadios) {
+        if (r.checked) {
+          quantity = parseInt(r.value);
+          break;
+        }
+      }
+
+      const itemPrice = 12.99;
+      const subtotal = itemPrice * quantity;
+      
+      const shippingSelect = document.getElementById('shipping');
+      const countryCode = shippingSelect.value;
+      
+      const rule = shippingRules[countryCode] || shippingRules['WORLD'];
+      
+      // Calculate individual shipping states
+      const calcShippingForQty = (qty) => {
+        const amt = itemPrice * qty;
+        if (rule.threshold > 0.0 && amt >= rule.threshold) {
+          return 0.0;
+        }
+        return rule.rate;
+      };
+
+      // Get exact shipping for selected qty
+      let shipping = calcShippingForQty(quantity);
+
+      // Update pack options dynamic shipping descriptions
+      const p1Ship = calcShippingForQty(1);
+      const p2Ship = calcShippingForQty(2);
+      const p3Ship = calcShippingForQty(3);
+
+      document.getElementById('pack-1-shipping-desc').textContent = 
+        p1Ship === 0.0 ? 'FREE Shipping' : `+$${p1Ship.toFixed(2)} Flat shipping fee`;
+      document.getElementById('pack-2-shipping-desc').textContent = 
+        p2Ship === 0.0 ? 'FREE Shipping' : `+$${p2Ship.toFixed(2)} Flat shipping fee`;
+      document.getElementById('pack-3-shipping-desc').textContent = 
+        p3Ship === 0.0 ? 'Qualifies for FREE Shipping' : `+$${p3Ship.toFixed(2)} Flat shipping fee`;
+
+      // Update badge label above pack 3
+      const pack3Badge = document.getElementById('pack-3-badge');
+      if (p3Ship === 0.0) {
+        pack3Badge.textContent = `BEST VALUE • FREE ${rule.name} SHIPPING`;
+        document.getElementById('pack-3-shipping-desc').className = "text-[10px] text-emerald-700 font-semibold";
+      } else {
+        pack3Badge.textContent = `BEST VALUE PACK`;
+        document.getElementById('pack-3-shipping-desc').className = "text-[10px] text-gray-500";
+      }
+
+      // Update Upsell message banner
+      if (shipping === 0.0) {
+        upsellMsgEl.textContent = `CONGRATULATIONS! YOU QUALIFY FOR FREE ${rule.name} SHIPPING.`;
+        upsellMsgEl.className = "text-[9px] text-emerald-700 uppercase font-bold text-center pt-1.5";
+      } else {
+        const remaining = (rule.threshold - subtotal).toFixed(2);
+        upsellMsgEl.textContent = `ADD $${remaining} MORE FOR FREE ${rule.name} SHIPPING (THRESHOLD: ${rule.currency}${rule.threshold})`;
+        upsellMsgEl.className = "text-[9px] text-brand-terracotta uppercase font-bold text-center pt-1.5";
+      }
+
+      const total = subtotal + shipping;
+
+      subtotalEl.textContent = `$${subtotal.toFixed(2)}`;
+      shippingEl.textContent = shipping === 0.0 ? 'FREE' : `$${shipping.toFixed(2)}`;
+      totalEl.textContent = `$${total.toFixed(2)}`;
+    }
+
+    // Image Gallery controller
+    function changeGalleryImage(src, labelText, element) {
+      const mainImg = document.getElementById('gallery-main-img');
+      const label = document.getElementById('gallery-label');
+      
+      // Smooth fade transition
+      mainImg.style.opacity = 0;
+      
+      setTimeout(() => {
+        mainImg.src = src;
+        label.textContent = labelText;
+        mainImg.style.opacity = 1;
+      }, 150);
+
+      // Reset thumb borders
+      const buttons = element.parentNode.querySelectorAll('button');
+      buttons.forEach(btn => {
+        btn.classList.remove('ring-1', 'ring-brand-charcoal', 'active-thumb-btn');
+      });
+
+      // Highlight active thumb
+      element.classList.add('ring-1', 'ring-brand-charcoal', 'active-thumb-btn');
+    }
+    
+    // Initialize pricing on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      updateCartPricing();
+    });
+  </script>
+</body>
+</html>
